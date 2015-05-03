@@ -2,7 +2,7 @@
 
 ##Description##
 
-The purpose of this script is to provide some functions to compute the ranks of conformal blocks divisors over curves of positive genus, using the functions provided by [Dave Swinarski](http://faculty.fordham.edu/dswinarski/)'s [Conformal Blocks](http://faculty.fordham.edu/dswinarski/conformalblocks/) package for genus 0.
+The purpose of this script is to provide some functions to compute the ranks of conformal blocks bundles over curves of positive genus, using the functions provided by [Dave Swinarski](http://faculty.fordham.edu/dswinarski/)'s [Conformal Blocks](http://faculty.fordham.edu/dswinarski/conformalblocks/) package for genus 0.
 
 In particular, in order to use this script it is necessary to have installed both the LieTypes.m2 and ConformalBlocks.m2 packages. These are both available on [Dave Swinarki's website](http://faculty.fordham.edu/dswinarski/conformalblocks/)
 
@@ -27,7 +27,7 @@ weights (always assuming lie algebras of type A) are entered as lists in the for
 
 
 	makecbvb(rankplusone, level, weights)
-this just runs Swinarski's program to construct a conformal blocks vector bundle on genus 0 curves as usual, for the group $$$sl\_{\\text{rankplusone}}$$$.
+this just runs Swinarski's program to construct a conformal blocks vector spacendle on genus 0 curves as usual, for the group $$$sl\_{\\text{rankplusone}}$$$.
  
 ####Function: findcbrank####
  
