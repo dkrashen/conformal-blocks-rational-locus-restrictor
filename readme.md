@@ -6,6 +6,8 @@ The purpose of this script is to provide some functions to compute the ranks of 
 
 In particular, in order to use this script it is necessary to have installed both the LieTypes.m2 and ConformalBlocks.m2 packages. These are both available on [Dave Swinarki's website](http://faculty.fordham.edu/dswinarski/conformalblocks/)
 
+This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/)language, and was tested on version 1.1.99.
+
 ##Loading##
 
 This is not a "package" for M2, so you don't need to install it. To load it to use its functions simply type into M2:
@@ -40,6 +42,12 @@ Here, <code>lambdas</code> is a list of weights, entered as <code>{lambda<sub>1<
 
 shows the details for how the findcbrank function is working, by explicitly listing all possible assignments of attaching weights to the paired points of the $$$2s + t$$$-pointed rational curves, and showing the rank contribution of each of these associated conformal blocks on $$$\overline M\_{0, 2s + t}$$$.
  	
+<br />
+<br />
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
 <br />
 <br />
 <br />
