@@ -1,12 +1,18 @@
 #Conformal Blocks Restrictor Instructions#
 
+
+<br />
+
 ##Description##
 
 The purpose of this script is to provide some functions to compute the ranks of conformal blocks bundles over curves of positive genus, using the functions provided by [Dave Swinarski](http://faculty.fordham.edu/dswinarski/)'s [Conformal Blocks](http://faculty.fordham.edu/dswinarski/conformalblocks/) package for genus 0.
 
 In particular, in order to use this script it is necessary to have installed both the LieTypes.m2 and ConformalBlocks.m2 packages. These are both available on [Dave Swinarki's website](http://faculty.fordham.edu/dswinarski/conformalblocks/)
 
-This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/) language, and was tested on Macaulay2 version 1.1.99, ConformalBlocks version 2.1 and LieTypes version 0.1.
+This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/) language.
+
+###Version 0.2###
+Compatible with Macaulay2 version 1.7, requires ConformalBlocks version 2.2 and LieTypes version 0.2.
 
 ##Loading##
 
