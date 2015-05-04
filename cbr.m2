@@ -4,7 +4,7 @@ needsPackage"ConformalBlocks"
 makecbvb = (slrankplusone, level, weights) -> (
   m = slrankplusone;
 	la = simpleLieAlgebra("A", m-1);
-	conformalBlockVectorBundle(la, level, weights, 0);
+	return conformalBlockVectorBundle(la, level, weights, 0);
 )
 
 --- this outputs a list {stuff_1, stuff_2, ...} where each entry stuff_i
