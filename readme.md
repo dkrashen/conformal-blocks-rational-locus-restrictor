@@ -6,7 +6,7 @@ The purpose of this script is to provide some functions to compute the ranks of 
 
 In particular, in order to use this script it is necessary to have installed both the LieTypes.m2 and ConformalBlocks.m2 packages. These are both available on [Dave Swinarki's website](http://faculty.fordham.edu/dswinarski/conformalblocks/)
 
-This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/) language, and was tested on version 1.1.99.
+This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/) language, and was tested on Macaulay2 version 1.1.99, ConformalBlocks version 2.1 and LieTypes version 0.1.
 
 ##Loading##
 
