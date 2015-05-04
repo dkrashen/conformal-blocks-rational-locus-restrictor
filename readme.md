@@ -14,6 +14,8 @@ This script is written in the [Macaulay2](http://www.math.uiuc.edu/Macaulay2/) l
 ###Version 0.2###
 Compatible with Macaulay2 version 1.7, requires ConformalBlocks version 2.2 and LieTypes version 0.2.
 
+For those with older systems, [Conformal Blocks Restrictor, version 0.1](https://github.com/dkrashen/conformal-blocks-rational-locus-restrictor/tree/275e3d39d75a676388437f934b4140f1ca05d135) is compatible with Macaulay version 1.7, ConformalBlocks version 2.1 and LieTypes version 0.1.
+
 ##Loading##
 
 This is not a "package" for M2, so you don't need to install it. To load it to use its functions simply type into M2:
