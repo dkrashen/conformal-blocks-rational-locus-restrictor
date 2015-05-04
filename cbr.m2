@@ -3,8 +3,9 @@ needsPackage"ConformalBlocks"
 
 makecbvb = (slrankplusone, level, weights) -> (
   m = slrankplusone;
-	la = simpleLieAlgebra(sl_m);
-	conformalBlockVectorBundle(la, level, weights, 0))
+	la = simpleLieAlgebra("A", m-1);
+	conformalBlockVectorBundle(la, level, weights, 0);
+)
 
 --- this outputs a list {stuff_1, stuff_2, ...} where each entry stuff_i
 --- is a tuple {a_1, a_2, ..., a_m} where m = numentries and where the
